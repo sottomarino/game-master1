@@ -113,7 +113,7 @@ class App extends Component {
     else if(this.state.cardsChosenId.includes(cardId)) {
       return CARD_ARRAY[cardId].img
     } else {
-      return window.location.origin + '/images/blank.png'
+      return window.location.origin + 'images/blank.png'
     }
   }
 
