@@ -24,7 +24,7 @@
     "truffle-flattener": "^1.4.2",
     "web3": "1.0.0-beta.55"
   },
-  "homepage": "http://sottomarino.github.io/game-master2",
+  "homepage": "http://sottomarino.github.io/game-master2/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
