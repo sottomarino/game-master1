@@ -108,7 +108,7 @@ class App extends Component {
   chooseImage = (cardId) => {
     cardId = cardId.toString()
     if(this.state.cardsWon.includes(cardId)) {
-      return window.location.origin + '/images/white.png'
+      return window.location.origin + 'images/white.png'
     }
     else if(this.state.cardsChosenId.includes(cardId)) {
       return CARD_ARRAY[cardId].img
